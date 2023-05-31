@@ -1,11 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
 
+body {
+  box-sizing: border-box;
+  background: hsl(30, 38%, 92%);
+}
 
-
-body{
-box-sizing: border-box;
-font-family: Fraunces;
-
+div .para-info {
+  letter-spacing: 6px;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', 'sans-serif';
 
 }
-  
+
+h1 {
+  /* color: hsl(212, 21%, 14%); */
+}
+
+img {
+  width: 100%;
+  margin-inline: auto;
+  min-width: 8rem;
+}
+
+.discription {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+span {
+  color: hsl(158, 36%, 37%);
+  /* font-family: ; */
+}
+
+
+.deco {
+  text-decoration: line-through;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+}
